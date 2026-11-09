@@ -25,7 +25,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name='add-meal'
+        name='add_meals'
         options={{
           title: 'Add Meal',
           tabBarIcon: ({ color, size }) => (

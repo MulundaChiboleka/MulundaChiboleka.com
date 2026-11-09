@@ -1,6 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native';
 import { Meal } from '@/app/Storage/meals';
-import MealItem from './MealItems';
+import MealItem from '@/app/components/MealItems';
+import { StyleSheet, Text, View } from 'react-native';
 
 type RecentMealsProps = {
   meals: Meal[];

@@ -1,12 +1,11 @@
 import HomeHeader from '@/app/components/homeheader';
-import MacroGrid from '@/app/components/statusGrid';
 import RecentMeals from '@/app/components/RecentMeals';
+import StatusGrid from '@/app/components/statusGrid';
 import { getMeals, Meal } from '@/app/Storage/meals';
 import { globalStyles } from '@/app/styles/global';
 import { useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { ScrollView, Text } from 'react-native';
-import StatusGrid from '@/app/components/statusGrid';
 
 export default function HomeScreen() {
   const [meals, setMeals] = useState<Meal[]>([]);

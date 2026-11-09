@@ -1,6 +1,6 @@
-import { Alert, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { deleteMeal } from '@/app/Storage/meals';
 import { colors } from '@/app/styles/global';
+import { Alert, StyleSheet, Text, TouchableOpacity } from 'react-native';
 
 type MealItemProps = {
   id: string;
